@@ -12,19 +12,19 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Return the quotient of two numbers as a float"""
-    return num1 / num2
+    return float(num1) / num2
 
 def square(num):
     """Return the square of a number"""
-    return num**2
+    return num ** 2
 
 def cube(num):
     """Return the cube of a number"""
-    return num**3
+    return num ** 3
 
 def power(num, exponent):
     """Return num raised to the power of exponent"""
-    return num**exponent
+    return num ** exponent
 
 def mod(num1, num2):
     """Return remainder of num1 divided by num2"""
